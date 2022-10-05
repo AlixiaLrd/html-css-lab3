@@ -1,0 +1,188 @@
+body{
+    background-image: url(../assets/images/dark-wood2.jpg);
+}
+
+body {
+    color: rgb(2, 44, 151);
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0,0,0,0;
+}
+
+
+body h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body p{
+    color: #090377;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 950px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(194, 236, 241);
+}
+
+.content{
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+header, nav, footer{
+    background-color: rgb(37, 52, 222) ;
+    color:rgb(0, 0, 0)
+}
+
+nav ul{
+    margin: 0%;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+header li :normal{
+    color: rgb(251, 2, 2);
+}
+
+header li :visited{
+    color: rgb(255, 255, 255);
+}
+
+header li :hover{
+    color: rgb(2, 251, 197);
+}
+
+header li :active{
+    color: rgb(251, 2, 230);
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: rgb(251, 2, 2);
+}
+
+h2{
+    color: rgb(227, 189, 107);
+}
+
+h3{
+    color: rgb(228, 94, 94);
+}
+
+body .img-centre{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+audio, video{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+ td, th{
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(255, 102, 52)
+}
+
+table th, tfoot td{
+    text-transform: uppercase;
+    background-color: rgb(234, 161, 5);
+    color: rgb(0, 0, 0);
+}
+
+dt{
+    text-decoration: bold;
+}
+
+footer{
+    font-size:80% ;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+iframe{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    border: 1px solid rgb(79, 169, 224);
+    background-color: rgb(73, 207, 227);
+}
+
+legend{
+    font-style: italic;
+    background-color:rgb(2, 44, 151);
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: Opx;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+
+input[type=submit]{
+    border:3px dotted rgb(41, 60, 233);
+    padding: 5px;
+    background-color: rgb(63, 126, 145);
+    color: rgb(251, 2, 2)
+}
+
+input[type=submit]:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(251, 2, 2);
+    cursor: pointer;
+}
